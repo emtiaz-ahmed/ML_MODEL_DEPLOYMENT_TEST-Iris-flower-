@@ -1,6 +1,7 @@
 import flask
 # import pickle
-from sklearn.externals import joblib
+# from sklearn.externals import joblib
+import joblib
 import pandas as pd
 
 # Use pickle to load in the pre-trained model.
