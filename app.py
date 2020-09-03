@@ -1,6 +1,7 @@
 import flask
 # import pickle
 # from sklearn.externals import joblib
+import sklearn
 import joblib
 import pandas as pd
 
