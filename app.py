@@ -1,5 +1,5 @@
 import flask
-import pickle
+# import pickle
 from sklearn.externals import joblib
 import pandas as pd
 
