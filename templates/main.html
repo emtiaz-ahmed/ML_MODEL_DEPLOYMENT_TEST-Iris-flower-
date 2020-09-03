@@ -13,12 +13,26 @@
 	    width: 35%;
 	    border: 1px solid #ccc;
 	}
+
+	.container {
+      height:100%;
+      width:100%;
+      display: flex;
+      position: fixed;
+      align-items: top;
+      justify-content: center;
+    }
+    
 	</style>
 
 
 	<head>
     	<title>Predict Iris Flower type</title>
 	</head>
+
+	<div class="container">
+		<div>Predict Iris Flowers Type!</div>
+	</div>
 
 	<form action="{{ url_for('main') }}" method="POST">
 	    <fieldset>
